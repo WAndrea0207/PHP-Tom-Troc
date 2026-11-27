@@ -182,3 +182,69 @@ h1 {
     line-height: 10px;
     color: #a6a6a6;
 }
+
+.comment-ca-marche {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 20px 81px;
+    text-align: center;
+}
+
+.titre-comment {
+    margin: 0;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37px;
+    color: #292929;
+}
+
+.intro-section {
+    margin: 16px 0 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: #292929;
+}
+
+.etapes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.etape {
+    display: grid;
+    place-items: center;
+    padding: 56px 28px;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #292929;
+}
+
+.etape p {
+    margin: 0;
+}
+
+.bouton-contour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 32px;
+    padding: 22px 38px;
+    border: 1px solid #00ac66;
+    border-radius: 10px;
+    background: #f5f3ef;
+    color: #00ac66;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
