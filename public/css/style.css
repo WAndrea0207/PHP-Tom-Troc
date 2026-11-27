@@ -1,3 +1,5 @@
+/* ─── Base ─── */
+
 *,
 *::before,
 *::after {
@@ -10,6 +12,8 @@ body {
     font-weight: 300;
     background: #f5f3ef;
 }
+
+/* ─── En-tête ─── */
 
 .entete {
     display: flex;
@@ -41,6 +45,8 @@ body {
     height: 2px;
     background: #a6a6a6;
 }
+
+/* ─── Hero ─── */
 
 .hero {
     display: flex;
@@ -81,6 +87,8 @@ h1 {
     line-height: 19px;
 }
 
+/* ─── Boutons ─── */
+
 .bouton {
     display: flex;
     align-items: center;
@@ -95,6 +103,8 @@ h1 {
     line-height: 19px;
     text-decoration: none;
 }
+
+/* ─── Pied de page ─── */
 
 .pied {
     display: flex;
@@ -123,6 +133,8 @@ h1 {
     max-width: 22px;
     height: auto;
 }
+
+/* ─── Derniers livres ─── */
 
 .derniers-livres {
     padding: 48px 20px 81px;
@@ -183,6 +195,8 @@ h1 {
     color: #a6a6a6;
 }
 
+/* ─── Comment ça marche ─── */
+
 .comment-ca-marche {
     display: flex;
     flex-direction: column;
@@ -217,7 +231,7 @@ h1 {
 .etape {
     display: grid;
     place-items: center;
-    padding: 56px 28px;
+    padding: 53px 28px;
     border-radius: 10px;
     background: #fff;
     font-size: 14px;
