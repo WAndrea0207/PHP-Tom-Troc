@@ -262,3 +262,66 @@ h1 {
     font-weight: 600;
     line-height: 19px;
 }
+
+/* ─── Photo bibliothèque ─── */
+
+.photo-bibliotheque img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 15 / 17;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* ─── Nos valeurs ─── */
+
+.titre-valeur {
+    margin: 0;
+    text-align: left;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37px;
+    color: #292929;
+}
+
+.valeurs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 48px 20px 50px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #292929;
+}
+
+.valeurs-texte {
+    display: flex;
+    flex-direction: column;
+    gap: 17.5px;
+}
+
+.valeurs-texte p {
+    margin: 0;
+    line-height: 17px;
+}
+
+.valeurs-signature {
+    margin: 0;
+    color: #a6a6a6;
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* ─── Illustration valeurs ─── */
+
+.illustration-valeurs {
+    padding-bottom: 25px;
+}
+
+.illustration-valeurs img {
+    display: block;
+    width: 32%;
+    height: auto;
+    margin: 0 auto;
+}

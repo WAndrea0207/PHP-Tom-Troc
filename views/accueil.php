@@ -66,3 +66,21 @@
     <button class="bouton-contour" type="button">Voir tous les livres</button>
 </section>
 
+<section class="photo-bibliotheque">
+    <img src="img/valeurs.jpg" alt="Étagères de livres">
+</section>
+
+<section class="valeurs">
+    <h2 class="titre-valeur">Nos valeurs</h2>
+    <div class="valeurs-texte">
+        <p>Chez Tom Troc, nous mettons l'accent sur<br>le partage, la découverte et la communauté. Nos<br>valeurs sont ancrées dans notre passion pour les<br>livres et notre désir de créer des liens entre les<br>lecteurs. Nous croyons en la puissance des<br>histoires pour rassembler les gens et inspirer des<br>conversations enrichissantes.</p>
+        <p>Notre association a été fondée avec une<br>conviction profonde : chaque livre mérite d'être lu<br>et partagé.</p>
+        <p>Nous sommes passionnés par la création d'une<br>plateforme conviviale qui permet aux lecteurs de<br>se connecter, de partager leurs découvertes<br>littéraires et d'échanger des livres qui attendent<br>patiemment sur les étagères.</p>
+    </div>
+    <p class="valeurs-signature">L'équipe Tom Troc</p>
+</section>
+
+<section class="illustration-valeurs">
+    <img src="img/coeur.svg" alt="">
+</section>
+
